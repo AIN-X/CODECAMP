@@ -1,11 +1,12 @@
 #include<iostream>
 using  namespace std;
 int main(){
-     char s[]="Focus";
+     char s[]="Sorry";
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; s[i] != '\0'; i++)
+    
      {
-        cout << s << endl;  
+        cout << s[i] << endl;  
     }
 
     return 0;
