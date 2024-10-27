@@ -12,5 +12,5 @@ int main()
 {
     int sal = 27000;
     change_Salary(sal);
-    cout << "\nSalary inside main : " << sal<<"\n "<< endl;
+    cout << "\nSalary inside main : " << sal << "\n " << endl;
 }
